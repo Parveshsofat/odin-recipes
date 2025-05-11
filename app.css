@@ -95,13 +95,20 @@ ul {
 }
 /* --------------NAVBAR-------------- */
 .navbar {
-    margin-bottom: 20rem;
+    margin-bottom: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 .nav-btn-container  {
     display: flex;
+}
+.hero-section {
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
+    /* text-align: center; */
 }
 
 /* --------------COMPONENTS-------------- */
@@ -163,7 +170,8 @@ ul {
     display: flex;
     gap: 2rem;
     justify-content:center;
-    align-items: center;
+    margin-bottom: 5rem;
+    border: #01343c double;
 }
 
 /* --------------FOOTER-------------- */
