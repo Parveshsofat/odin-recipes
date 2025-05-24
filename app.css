@@ -107,8 +107,10 @@ ul {
 .hero-section {
     display: flex;
     margin-bottom: 5rem;
+    padding-top: 5rem;
     justify-content: center;
     /* text-align: center; */
+    border-top: #01343c solid;
 }
 
 /* --------------COMPONENTS-------------- */
@@ -168,10 +170,11 @@ ul {
 }
 .recipes-btn-main {
     display: flex;
+    flex: auto;
     gap: 2rem;
     justify-content:center;
     margin-bottom: 5rem;
-    border: #01343c double;
+    border-bottom: #01343c solid;
 }
 
 /* --------------FOOTER-------------- */
